@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,15&height=180&section=header&text=WEBMESH%20ENGINE&fontSize=40&fontColor=6366f1&animation=fadeIn&fontAlignY=38" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,15&height=180&section=header&text=WebMesh-Dashboard%20ENGINE&fontSize=40&fontColor=6366f1&animation=fadeIn&fontAlignY=38" width="100%" />
 
   <h3>Enterprise P2P Swarm Topology & High-Throughput WebRTC Control Plane</h3>
   
