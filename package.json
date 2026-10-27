@@ -1,0 +1,20 @@
+{
+  "name": "webmesh",
+  "version": "5.0.0",
+  "private": true,
+  "description": "Enterprise P2P Swarm Engine & Real-Time Network Diagnostics Visualizer",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace=apps/web\" \"npm run dev --workspace=apps/signaling\"",
+    "dev:web": "npm run dev --workspace=apps/web",
+    "dev:signaling": "npm run dev --workspace=apps/signaling",
+    "build": "npm run build --workspace=apps/web && npm run build --workspace=apps/signaling",
+    "start": "npm run start --workspace=apps/web"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "typescript": "^5.4.0"
+  }
+}
