@@ -38,25 +38,6 @@ The control plane coordinates real-time node synchronization, tracking packet de
 │  [○] STAR Specs          │                                             │
 └──────────────────────────┴─────────────────────────────────────────────┘
 ```
-
-## 🌐 System Architecture & Topology
-
-The control plane coordinates real-time node synchronization, tracking packet delivery, round-trip latency, and dynamic cryptographic verification across active cluster peers.
-
-┌────────────────────────────────────────────────────────────────────────┐
-│  WEBMESH v5.0 Quantum Core                              [Node: Secure] │
-├──────────────────────────┬─────────────────────────────────────────────┤
-│  [●] Swarm Matrix        │  LIVE P2P TOPOLOGY & MULTI-REGION MESH      │
-│  [○] Interactive Mesh    │                                             │
-│  [○] Architecture Assets │    [Localhost] ─── (38ms) ───> [US-East]    │
-│  [○] Wireshark Logs      │         │                         │         │
-│  [○] WebCrypto AES-GCM   │       (14ms)                    (182ms)     │
-│  [○] Impairments Bench   │         ▼                         ▼         │
-│  [○] Cyber CLI Terminal  │    [EU-Central] <─── (Mesh) ──> [AP-South]  │
-│  [○] STAR Specs          │                                             │
-└──────────────────────────┴─────────────────────────────────────────────┘
-
-
 ---
 
 ## 🧬 Core Modules & Subsystems
